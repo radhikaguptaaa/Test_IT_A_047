@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>Section</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="login">
+      
+    <h1>Login</h1><br>
+    <input type ="text" placeholder="username" class="in" id="username">
+    <input type="password" placeholder="password" class="in" id="password"><br><br>
+
+    <button  id="ll"  onclick="return validateForm() ">Login</button>
+       
+</div>
+<script>
+     function validateForm() {
+        const username = document.getElementById('username').value;
+        const password = document.getElementById('password').value;
+        const usernameError = document.getElementById('usernameError');
+        const passwordError = document.getElementById('passwordError');
+
+        let valid = true;
+
+       
+        if (username.trim() === '') {
+            usernameError.style.display = 'block';
+            valid = false;
+        } else {
+            usernameError.style.display = 'none';
+        }
+
+      
+        if (password.trim() === '') {
+            passwordError.style.display = 'block';
+            valid = false;
+        } else {
+            passwordError.style.display = 'none';
+        }
+
+        
+        if (valid) {
+            window.location.href = 'dashboard.html'; 
+        }
+
+        
+        return false;
+    }
+</script>
+</body>
+
+
+</html>
+    
+

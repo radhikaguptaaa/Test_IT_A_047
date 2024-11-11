@@ -1,0 +1,65 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.login{
+    background-color: white;
+    margin: 500px;
+    margin-top: 100px;
+    padding: 30px;
+    text-align: center;
+    border: 2px solid black;
+}
+.in{
+    margin: 10px;
+    margin-left: 0px;
+    size: 20px;
+    padding: 10px;
+}
+.dash{
+    background-color: white;
+    margin-top: 10px;
+    
+    text-align: center;
+   
+    padding: 10px;
+}
+#head{
+    background-color: yellow;
+    display:inline;
+}
+
+
+.btn{
+    
+    padding:10px ;
+    background-color: #28a745;
+    color: white;
+    border: 0;
+   
+}
+#ll{
+    margin-top: 20px;
+    height: 30px;
+    width: 80px;
+    background-color:#28a745;
+    border: 0;
+    
+}
+#log{
+    padding: 10px;
+    background-color: #dc3545;
+    color: white;
+    border: 0;
+    
+}
+.btn:hover{
+    background-color: green ;
+}
+
+.text{
+    text-align: center;
+    color: #28a745;
+    
+}
